@@ -1,11 +1,11 @@
+from domain import *  # Task environments
+from utils import *
+from .nsga_sort import nsga_sort
+
 import numpy as np
 import math
 import copy
 import json
-
-from domain import *  # Task environments
-from utils import *
-from .nsga_sort import nsga_sort
 
 
 class Neat:
